@@ -257,8 +257,8 @@ header .entrance a:nth-child(2){
 .screen_four ul li:nth-child(1){
     color: #65B5FC;
 }
-.screen_four .flat{
-    margin-bottom: 50px;
+.carusel_{
+    padding: 50px 50px;
 }
 .screen_four img{
     width: 100%;
@@ -545,4 +545,36 @@ footer .search i{
 }
 footer .other:nth-last-child(1) p:nth-last-child(1){
     font-weight: bold;
+}
+.owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.owl-nav {
+    position: absolute;
+    top: 274px;
+    width: 100%;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+}
+.owl-nav .owl-prev:before {
+    content: "\f053";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 26px;
+    color: #65B5FC;
+    padding: 13px 18px;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+}
+.owl-nav .owl-next:before {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 26px;
+    color: #65B5FC;
+    padding: 13px 18px;
 }
